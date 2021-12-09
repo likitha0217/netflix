@@ -1,6 +1,6 @@
 import { ArrowDropDown, Notifications, Search } from '@material-ui/icons'
 import React, { useState } from 'react'
-import Img from "../../img/Netflix-logo.png"
+
 
 import './navbar.scss';
 import User from "../../img/user.png"
@@ -17,9 +17,9 @@ const Navbar = () => {
         <div class={isScrolled ? "navbar scrolled" : "navbar" }>
             <div className="container">
                 <div className="left">
-                    <img src={Img} alt="" />
-                    <span><a href="/">Home</a> </span>
-                    <span><a href="/watch">View Video</a></span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="" />
+                    <span><a href="/">Home</a></span>
+                    <span><a href="/Watch">View Video</a></span>
                     <span><a href="/Register">Register</a></span>
                     <span><a href="/Login">Login</a></span>
                     <span>My List</span>
